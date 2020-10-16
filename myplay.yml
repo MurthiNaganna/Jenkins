@@ -8,6 +8,6 @@
 
     - name: Display the config
       shell:
-        cmd: ls -l
+        cmd: ls -l | grep log
 
 ...
