@@ -1,0 +1,8 @@
+---
+- hosts: myserver
+  become: True
+  tasks:
+    - name: Display a msg
+      debug:
+        msg: Hi Murthi
+...
