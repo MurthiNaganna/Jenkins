@@ -9,4 +9,9 @@
     - name: Display the config
       shell: echo "Ansi" >> somelog.txt
 
+    - name: Install git
+      apt:
+        name: git
+        state: present
+        update_cache: yes
 ...
