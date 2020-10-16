@@ -7,14 +7,6 @@
         msg: Hi Murthi
 
     - name: Create a file
-      shell: echo "Ansi" >> somelog.txt
+      shell: echo "My first ansible project" >> somelog.txt
 
-    - name: Install git
-      apt:
-        name: git
-        state: present
-        update_cache: yes
-
-    - name: Check installed git verions
-      shell: git --version
 ...
