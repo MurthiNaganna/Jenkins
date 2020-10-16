@@ -7,6 +7,6 @@
         msg: Hi Murthi
 
     - name: Display the config
-      shell: Ansi >> somelog.txt
+      shell: echo "Ansi" >> somelog.txt
 
 ...
