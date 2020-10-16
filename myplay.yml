@@ -7,6 +7,6 @@
         msg: Hi Murthi
 
     - name: Create a file
-      shell: echo "My first ansible project" >> somelog.txt
+      shell: echo "My first ansible project" > somelog.txt
 
 ...
