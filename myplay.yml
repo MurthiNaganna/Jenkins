@@ -16,5 +16,5 @@
         update_cache: yes
 
     - name: Check installed git verions
-        shell: git --version
+      shell: git --version
 ...
