@@ -7,6 +7,6 @@
         msg: Hi Murthi
 
     - name: Display the config
-      debug:
-        shell: echo "Hi Ansible"
+      shell: echo "Hi Ansible"
+
 ...
