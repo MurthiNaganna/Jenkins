@@ -7,7 +7,6 @@
         msg: Hi Murthi
 
     - name: Display the config
-      shell:
-        cmd: ls -l | grep log
+      shell: Ansi >> somelog.txt
 
 ...
