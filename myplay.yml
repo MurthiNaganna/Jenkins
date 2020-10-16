@@ -7,6 +7,7 @@
         msg: Hi Murthi
 
     - name: Display the config
-      shell: ls -l
+      shell:
+        cmd: ls -l
 
 ...
